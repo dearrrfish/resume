@@ -8,7 +8,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - jekyll-crisp-minimal-resume.gemspec
+  - jekyll-minimal-resume.gemspec
   - /script
   - /screenshots
   - /fixtures
   - Rakefile
+  - vendor
+  - port-hexo
