@@ -1,53 +1,91 @@
-title: Résumé
-name: YOUR NAME
-jobtitle: Your Job Title
+title: Yu Jin - Résumé
+updated: 2022/10/01
+name: YU JIN
+jobtitle: Senior Software Engineer
+summary: |
+  I am a versatile software engineer with 9 years of industry experience and balanced skills in web
+  UI/UX/services, serverless architectures, cloud computing, and data pipelines.<br/>
+  Always passionate about new technologies, while preferring good old fashion in personal life. <i><b>A
+  forever coder & recent father.</b></i><br/>
 contact:
   - icon: fa-envelope
-    text: youremail@example.com
-  - icon: fa-phone-square
-    text: your-phone-num
+    text: hr@yjin.dev
+  # - icon: fa-phone-square
+  #   text: your-phone-num
   - icon: fa-globe
-    text: your-website.com
-    link: https://crispgm.github.io/resume/resume.html
+    text: yjin.dev
+    link: https://yjin.dev
   - icon: fa-github
-    text: your-github
-    link: https://github.com/crispgm/resume
+    text: dearrrfish
+    link: https://github.com/dearrrfish
+  - icon: fa-linkedin
+    text: linkedin profile
+    link: https://linked.in/in/yjindev
 education:
-  - university: Your First University
-    duration: Jul 2011 - Dec 2012
-    location: Consectetur adipiscing elit
-    major: Lorem ipsum dolor sit amet
-  - university: Your Second University
-    duration: Aug 2007 - Jun 2011
-    location: Ut enim ad minim veniam
-    major: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+  - university: University of San Francisco
+    duration: 2011 - 2013
+    location: San Francisco, USA
+    major: Master of Computer Science
+  - university: Beijing Normal University
+    duration: 2004 - 2008
+    location: Beijing, China
+    major: Bachelor of Management Science
 skills:
-  - title: Skill Group 1
-    items: Lorem, Ipsum, Dolor, Sit, Amet
-  - title: Skill Group 2
-    items: Consectetur, Adipiscing, Elit
-  - title: Skill Group 3
-    items: Sed do, Eiusmod, Tempor, Incididunt
+  - title: Technical
+    items: AWS/Serverless, Linux/Shell/Git, Javascript(Node/React/Vue), Python, SQL, Jenkins/Airflow/Terraform
+  - title: Experimented with
+    items: Golang, Typescript, Elasticsearch, Scala/Spark, GraphQL, Docker
 experience:
-  - title: Job Title 1
-    duration: Apr 2016 - Now
-    company: Your 1st, Inc.
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  - title: Job Title 2
-    duration: Apr 2013 - Mar 2016
-    company: Your 2nd, Inc.
-    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  - title: Job Title 3
-    duration: Dec 2011 - Mar 2012
-    company: Your 3rd Co, Ltd.
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-projects:
-  - name: Project Name 1
-    description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    contribution: Contributor.
-  - name: Project Name 2
-    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    contribution: Creator and maintainer.
+  - title: Lead/Senior Software Engineer
+    duration: 2019 - present
+    company: Gracenote/Nielsen
+    description: |
+      - Member of core product team of the vertical. Develop and maintain the pipeline of data
+      aggregations from multiple internal and vendor sources. Manage CI/CD processes and take on-
+      call duty roles. Deliver reliable products (50+ million entities) weekly to 20+ customers like
+      Apple, Spotify, Deezer, Roku, etc.<br/>
+      - Main developer to implement and maintain the music data API product with AWS EC2/S3/EMR,
+      Solr, Redis, Apigee, etc. Leads the microservice design and implementation for the next-
+      generation API product. Coordinate with external teams on dependencies and requirements for
+      on-time delivery.<br/>
+      - Experienced as scrum master during 2020-2021, helped the team to keep up 90% complete rate
+      on objectives.<br/>
+      <br/>
+      <i><b>Keywords:</b> AWS, Data pipeline, API design & development, DevOps, Agile</i>
+  - title: Senior Software Engineer
+    duration: 2016 - 2019
+    company: Gracenote
+    description: |
+      - Designed and led the team to migrate 10+ web applications/services to serverless infrastructure.
+      Created project templates and deployment scripts to speed up the bootstrap process by 20%
+      and narrow the technical gap between front-end developers and ops.<br/>
+      - Developed consumer-facing prototypes and data pipelines that ingest and validate the
+      company's data products in the first place. 3 prototypes have been promoted to long-life
+      projects, utilized by product/sales/editorial teams for various purposes daily.<br/>
+      - Designed and implemented a user management system on AWS, currently supporting 20+
+      applications and 1000+ internal/external users. Provides a universal experience for user login,
+      detailed management of content entitlement, and site access across different application scopes.<br/>
+      <br/>
+      <i><b>Keywords:</b> AWS, Serverless, Fullstack Dev, RESTful, GraphQL, ElasticSearch</i>
+  - title: Server Engineer
+    duration: 2013 - 2016
+    company: Gravitymobile/Gracenote
+    description: |
+      - Developed an interactive system to provision and update 20+ web services to the cloud or data
+      centers, before AWS announced CodeDeploy with a similar idea. The bootstrap scripts worked
+      well with auto-scaling saving 40% of manual operations from the daily workflow.<br/>
+      - Designed and implemented a web app with a dedicated user & storage backend, to help music
+      editorials easily curate descriptor-based (like genres, moods, eras) playlists and integrate them
+      with third-party services. Served 100+ companies in 6 market regions in 4 years.<br/>
+      <br/>
+      <i><b>Keywords:</b> AWS, Shell Script, React.js, MySQL, PHP, Git</i>
+# projects:
+#   - name: Project Name 1
+#     description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#     contribution: Contributor.
+#   - name: Project Name 2
+#     description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#     contribution: Creator and maintainer.
 languages:
   - name: English
     proficiency: Work proficiency
