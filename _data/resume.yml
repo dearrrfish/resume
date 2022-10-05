@@ -14,13 +14,13 @@ contact:
   #   text: your-phone-num
   - icon: fa-globe
     text: yjin.dev
-    link: https://yjin.dev
+    # link: https://yjin.dev
   - icon: fa-github
     text: dearrrfish
-    link: https://github.com/dearrrfish
+    # link: https://github.com/dearrrfish
   - icon: fa-linkedin
-    text: linkedin profile
-    link: https://linked.in/in/yjindev
+    text: yjindev
+    # link: https://linked.in/in/yjindev
 education:
   - university: University of San Francisco
     duration: 2011 - 2013
